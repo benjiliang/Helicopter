@@ -1,13 +1,11 @@
 import javax.swing.SwingUtilities;
 
-import view.MainUI;
-import view.RegistryUI;
+import controller.Controller;
 
 public class main {
 
 	public static void main(String[] args) {
-		MainUI ui = new MainUI();
-		ui.setVisible(true);
+		Controller controlador = new Controller();
 
 	}
 
